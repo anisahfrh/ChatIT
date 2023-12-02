@@ -1,0 +1,161 @@
+version: "3.0"
+
+intents:
+  - prodi
+  - akreditasi
+  - kurikulum
+  - lab
+  - publikasi
+  - persebaran_mhs
+  - sejarah
+  - kadep
+  - pendaftaran
+  - prospek_karir
+  - jadwal_kuliah
+  - kalender_akademik
+  - hima
+  - prestasi
+  - staf
+  - dosen
+  - struktur_org
+  - lokasi
+  - kontak
+  - pembuka
+  - penutup
+  - positif
+  - negatif
+  - chatit
+
+responses:
+  utter_prodi:
+  - text: "Departemen Teknologi Informasi hadir untuk mendukung dua dari lima bidang unggulan Institut Teknologi Sepuluh Nopember (ITS) yaitu ICT dan robotika, serta pemukiman. Program studi ini menawarkan lima bidang keahlian utama yaitu keamanan siber, keamanan aplikasi , integrasi sistem, layanan awan dan internet of things. Mahasiswa akan diberikan kemampuan untuk melakukan perencanaan dan pengelolaan teknologi informasi yang aman meliputi instalasi, integrasi, kastamisasi dan pemeliharaan, serta fokus pada metodologi pemanfaatan infrastruktur terkini. Metode pengajaran yang diterapkan di departemen ini terus dikembangkan seperti Pekerti, Applied Approach (AA), English as Medium Instruction (EMI), dan Problem Based Learning (PBL). Pembelajaran di Departemen ini menerapkan program student-centered learning yang menitikberatkan keaktifan mahasiswa melalui metode diskusi kelompok, presentasi kelompok, tugas individu dan tugas kelompok."
+
+  utter_akreditasi:
+  - text: |
+      Akreditasi Teknologi Informasi ITS adalah Baik Sekali, dapat dilihat di link berikut
+      https://www.its.ac.id/it/id/akademik/akreditasi
+
+  utter_kurikulum:
+  - text: |
+      Berikut adalah kurikulum program studi sarjana Teknologi Informasi ITS
+      https://www.its.ac.id/it/academic/curriculum/
+
+  utter_lab:
+  - text: "Terdapat satu laboratorium yang terdaftar di Teknologi Informasi ITS yaitu Laboratorium Kota Cerdas & Keamanan Siber (KCKS)."
+
+  utter_publikasi:
+  - text: |
+      Berikut adalah publikasi ilmiah dari para dosen Departemen Teknologi Informasi ITS
+      https://www.its.ac.id/it/id/riset-dan-kolaborasi/publikasi-ilmiah/
+
+  utter_persebaran_mhs:
+  - text: |
+      Berikut merupakan data persebaran asal daerah Mahasiswa/i Departemen Teknologi Informasi ITS
+      https://www.its.ac.id/it/id/tentang-kami/departemen-dalam-angka-2/
+
+  utter_sejarah:
+  - text: |
+      Departemen Teknologi Informasi atau Information Technology merupakan departemen yang berada di bawah Fakultas Teknologi Elektro dan Informatika Cerdas ITS (ELECTICS) yang mempunyai kompetensi utama di bidang Keamanan Siber (Cyber Security), Internet of Things (IoT), dan Smart City. Departemen ini berdiri karena kurangnya tenaga kerja keamanan siber di indonesia dan juga menjadi pelengkap dua dari lima bidang unggulan ITS, yaitu TIK dan robotik. Departemen ini juga berkontribusi terhadap ilmu pengetahuan alam dan teknologi. Berdirinya Departemen Teknologi Informasi FTEIC ITS dipelopori oleh dosen-dosen yang berasal dari Teknik Informatika dan Sistem Informasi. Berdasarkan Surat Keputusan Kementerian Riset, Teknologi dan Pendidikan Tinggi Republik Indonesia tahun 2018 NO. 31/SK/BAN-PT/Min-Akred/S/I/2018 menyetujui berdirinya Teknologi Informasi pada tanggal 24 Januari 2018. Mahasiswa angkatan pertama Departemen ini, diterima pada 13 Agustus 2018 dengan jumlah 45 mahasiswa. Pada saat itu, departemen teknologi informasi terletak di lantai 6 gedung perpustakaan ITS, Kampus ITS Sukolilo. Kepala departemen Teknologi Informasi, Ir. Khakim Ghozali M.MT mengungkapkan bahwa pada tahun 2018 mahasiswa dibimbing oleh pengajar dengan jumlah 6 orang dosen yang memiliki kualifikasi 2 orang berpendidikan S3 dan 4 orang berpendidikan S2. Pembelajaran mahasiswa dilengkapi dengan sarana ruang kelas, perpustakaan, ruang penunjang dan laboratorium. Pada pertengahan 2019 departemen Teknologi Informasi memiliki 4 ruang kelas, 1 laboratorium, ruang Tata Usaha, ruang Himpunan, ruang Dosen, dan ruang Kepala Departemen.
+      
+      Pada awal tahun 2019, departemen Teknologi Informasi memiliki satu laboratorium yaitu Laboratorium Kota Cerdas dan Keamanan Siber (KCKS) yang memiliki keahlian di  bidang Kota Cerdas dan Keamanan Siber. Dengan adanya penggabungan antara dua keahlian tersebut, Laboratorium KCKS mampu mewujudkan integrasi suatu teknologi informasi dan komunikasi (TIK dan teknologi Internet of Things (IoT) dengan memperhatikan keamanan  jaringannya. Fasilitas yang terdapat pada laboratorium ini diantaranya yaitu komputer,  proyektor dan layarnya, LED TV, dan Ruang Admin.
+
+  utter_kadep:
+  - text: "Dr.techn. Ir. R. V. Hari Ginardi, M.Sc"
+
+  utter_pendaftaran:
+  - text: |
+      Program seleksi penerimaan mahasiswa baru untuk program sarjana di ITS, mengacu kepada Peraturan Menteri Riset, Teknologi, dan Pendidikan Tinggi (Permenristekdikti) Nomor Nomor 2 Tahun 2015, tentang Penerimaan Mahasiswa Baru Program Sarjana pada Perguruan Tinggi Negeri, sebagaimana diubah dengan Peraturan Menteri Riset, Teknologi, dan Pendidikan Tinggi Republik Indonesia Nomor 45 Tahun 2015. Program seleksi tersebut dilakukan melalui 4 jalur seleksi, yaitu:
+
+      1. Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN)
+      2. Seleksi Bersama Masuk Perguruan Tinggi Negeri (SBMPTN)
+      3. Seleksi Prestasi (SP)
+      4. Seleksi Mandiri : Program Kemitraan dan Mandiri (PKM)
+
+      Daya tampung mahasiswa baru program sarjana  ITS untuk setiap program studi yang diterima melalui SNMPTN 30% (tiga puluh persen) pada setiap program studi, melalui SBMPTN 40% (empat puluh persen) pada setiap program studi dan melalui seleksi mandiri 30% (tiga puluh persen) pada setiap program studi.
+
+      Lebih lengkapnya dapat diakses melalui link berikut ini:
+      https://www.its.ac.id/admission/sarjana/
+
+  utter_prospek_karir:
+  - text: |
+      Sebagai lulusan Departemen Teknologi Informasi ITS memiliki peluang untuk berkarir di perusahaan maupun berwirausaha. Berikut ini adalah beberapa contoh pekerjaan sebagai lulusan departemen kami:
+      - Software Developer
+      - System Analyst
+      - Network Administrator
+      - IT Consultant
+      - Cloud Architect
+      - IT Support Analyst
+      - Computer Forensic Investigator
+      - Database Administrator
+      - Game Developer
+      - Network Engineer
+      - Web Designer
+      - Security Analyst
+      - Security Architect
+      - Security Engineer
+
+  utter_jadwal_kuliah:
+  - text: |
+      Jadwal kuliah dapat diakses pada link berikut:
+      https://www.its.ac.id/it/id/mahasiswa/jadwal-kuliah/
+
+  utter_kalender_akademik:
+  - text: |
+      Kalender akademik dapat diakses pada link berikut:
+      https://www.its.ac.id/it/id/mahasiswa/kalender-akademik/
+
+  utter_hima:
+  - text: |
+      Himpunan Mahasiswa Teknologi Informasi ITS (HMIT ITS) dapat diakses pada website dan media sosial berikut:
+      https://www.its.ac.id/it/id/mahasiswa/himpunan-mahasiswa/
+      https://www.instagram.com/hmit_its/
+
+  utter_prestasi:
+  - text: |
+      Berikut merupakan data mahasiswa berprestasi dari Departemen Teknologi Informasi ITS:
+      https://www.its.ac.id/it/id/mahasiswa/mahasiswa-berprestasi-it/
+
+  utter_staf:
+  - text: |
+      Terdapat tujuh staf Teknologi Informasi ITS, selengkapnya ada di
+      https://www.its.ac.id/it/id/daftar-staf/
+
+  utter_dosen:
+  - text: |
+      Terdapat sebelas dosen Teknologi Informasi ITS, selengkapnya ada di
+      https://www.its.ac.id/it/id/daftar-dosen/
+
+  utter_struktur_org:
+  - text: "Untuk info lebih lanjut, kunjungi https://www.its.ac.id/it/id/struktur-organisasi/"
+    image: "https://www.its.ac.id/it/wp-content/uploads/sites/46/2021/11/Struktur-Organisasi-Dep-Teknologi-Informasi-fix-update2023-1536x1117.png"
+
+  utter_lokasi:
+  - text: |
+      Gedung Tower 2, Lantai 2, Kampus ITS Sukolilo Surabaya, Indonesia 60111
+      https://maps.app.goo.gl/q5ZxVDc3Xw3vuviA7
+
+  utter_kontak:
+  - text: |
+      Berikut adalah kontak Departemen Teknologi Informasi ITS:
+      Phone: +62 31-5994251-54 (Hunting)
+      Mobile: +62 81333848401
+      e-mail: tinformasi@its.ac.id"
+
+  utter_pembuka:
+  - text: "Halo, apa yang bisa saya bantu?"
+
+  utter_penutup:
+  - text: "Oke, sampai jumpa."
+
+  utter_positif:
+  - text: "Oke, apa ada hal lain yang ingin Anda ketahui?"
+  
+  utter_negatif:
+  - text: "Mohon maaf jika respon saya kurang sesuai yang Anda harapkan. Saya tidak mengerti apa yang Anda maksud."
+
+  utter_chatit:
+  - text: "Perkenalkan saya ChatIT, saya di sini untuk menjawab pertanyaan Anda terkait Teknologi Informasi ITS. Apa yang ingin Anda ketahui tentang Teknologi Informasi ITS?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false

@@ -1,0 +1,254 @@
+version: "3.0"
+
+nlu:
+- intent: prodi
+  examples: |
+    - Prodi
+    - Jurusan
+    - Tentang IT
+    - IT itu apa?
+    - Tentang prodi
+    - Program studi
+    - Departemen IT
+    - Ini jurusan apa?
+    - Tentang Teknologi Informasi
+    - Apa itu Teknologi Informasi ITS?
+    - Gimana program studi Teknologi Informasi ITS?
+    - Bagaimana program studi Teknologi Informasi ITS?
+
+- intent: akreditasi
+  examples: |
+    - Akreditasi
+    - Tentang akreditasi
+    - Apa akreditasinya?
+    - Gimana akreditasinya?
+    - Apa akreditasi IT ITS?
+    - Bagaimana akreditasinya?
+    - Gimana akreditasi IT ITS?
+    - Bagaimana akreditasi IT ITS?
+    - Apa akreditasi Teknologi Informasi ITS?
+    - Gimana akreditasi Teknologi Informasi ITS?
+    - Bagaimana akreditasi Teknologi Informasi ITS?
+
+- intent: kurikulum
+  examples: |
+    - Matkul
+    - Kurikulum
+    - Mata kuliah
+    - Belajar apa aja?
+    - Tentang kurikulum
+    - Gimana kurikulumnya?
+    - Bagaimana kurikulumnya?
+    - Gimana kurikulum IT ITS?
+    - Apa saja yang dipelajari?
+    - Belajar apa aja di IT ITS?
+    - Bagaimana kurikulum IT ITS?
+    - Apa saja mata kuliah yang dipelajari?
+    - Apa kurikulum Teknologi Informasi ITS?
+    - Mata kuliah apa saja yang ada di IT ITS?
+    - Gimana kurikulum Teknologi Informasi ITS?
+    - Bagaimana kurikulum Teknologi Informasi ITS?
+
+- intent: lab
+  examples: |
+    - Lab IT
+    - Lab IT ITS
+    - Laboratorium
+    - Laboratorium IT
+    - Laboratorium IT ITS
+    - Gimana labnya?
+    - Ada lab apa saja?
+    - Lab apa saja yang terdapat di Teknologi Informasi ITS?
+    - Laboratorium apa saja yang terdapat di Teknologi Informasi ITS?
+
+- intent: publikasi
+  examples: |
+    - Publikasi dosen
+    - Publikasi ilmiah
+    - Apa saja publikasi ilmiah yang dimmiliki IT ITS?
+    - Bagaimana dengan publikasi ilmiah di Teknologi Informasi ITS?
+
+- intent: persebaran_mhs
+  examples: |
+    - Asal
+    - Asal daerah
+    - Asal mahasiswa
+    - Asal daerah mahasiswa
+    - Dari mana saja asal mahasiswa IT ITS?
+    - Berasal dari mana saja mahasiswa Teknologi Informasi ITS?
+
+- intent: sejarah
+  examples: |
+    - Sejarah
+    - Asal usul
+    - Sejarah IT
+    - Awal berdirinya
+    - Asal usul IT ITS
+    - Sejarah Teknologi Informasi ITS
+    - Bagaimana sejarah Teknologi Informasi ITS?
+
+- intent: kadep
+  examples: |
+    - Kadep
+    - Kaprodi
+    - Kepala jurusan
+    - Siapa kadepnya?
+    - Kepala departemen
+    - Siapa nama kaprodi IT ITS?
+    - Siapa nama kepala departemen?
+
+- intent: pendaftaran
+  examples: |
+    - Pendaftaran
+    - Jalur pendaftaran
+    - Gimana cara daftar?
+    - Apa saja jalur pendaftarannya?
+    - Bagaimana cara mendaftar IT ITS?
+    - Apa saja jalur pendaftaran S1 Teknologi Informasi ITS?
+
+- intent: prospek_karir
+  examples: |
+    - Prospek
+    - Prospek kerja
+    - Prospek karir
+    - Prospek kerja IT ITS
+    - Gimana prospek kerja lulusan IT ITS?
+    - Prospek karir lulusan Teknologi Informasi ITS
+    - Bagaimana prospek karir lulusan Teknologi Informasi ITS?
+
+- intent: jadwal_kuliah
+  examples: |
+    - Jadwal kelas
+    - Jadwal kuliah
+    - Jadwal kelas semester ini
+    - Jadwal kuliah semester ini
+    - Bagaimana jadwal kuliah semester ini?
+
+- intent: kalender_akademik
+  examples: |
+    - Kalender akademik
+    - kalender akademik tahun ini
+
+- intent: hima
+  examples: |
+    - Hima
+    - HMIT
+    - Ormawa
+    - Ada himanya?
+    - Ada ormawanya?
+    - Ada organisasinya?
+    - Himpunan mahasiswa
+    - Organisasi mahasiswa
+    - Himpunan Mahasiswa Teknologi Informasi
+    - Apa nama himpunan mahasiwa di Teknologi Informasi ITS?
+    - Adakah himpunan mahasiswa di Teknologi Informasi ITS?
+
+- intent: prestasi
+  examples: |
+    - Juara
+    - Prestasi
+    - Prestasinya
+    - Menang lomba
+    - Prestasi anak IT ITS
+    - Adakah prestasi mahasiswa IT?
+    - Prestasi apa saja yang dimiliki IT ITS?
+    - Prestasi mahasiswa Teknologi Informasi ITS
+    - Berapa banyak mahasiswa berprestasi dari Departemen Teknologi Informasi ITS?
+
+- intent: staf
+  examples: |
+    - Staf IT ITS
+    - Berapa jumlah staf di Teknologi Informasi ITS?
+    - Siapa saja staf di Teknologi Informasi ITS?
+    - Ada berapa banyak staf di IT ITS?
+
+- intent: dosen
+  examples: |
+    - Dosen
+    - Tendik
+    - Pengajar
+    - Tenaga pendidik
+    - Berapa jumlah dosen di Teknologi Informasi ITS?
+    - Siapa saja dosen di Teknologi Informasi ITS?
+    - Ada berapa banyak dosen di IT ITS?
+
+- intent: struktur_org
+  examples: |
+    - Struktur organisasi
+    - Bagaimana struktur organisasi Departemen Teknologi Informasi ITS?
+
+- intent: lokasi
+  examples: |
+    - Lokasi
+    - Posisi
+    - Tempat
+    - Lokasi IT ITS
+    - Dimana lokasi Teknologi Informasi ITS?
+
+- intent: kontak
+  examples: |
+    - Email
+    - Kontak
+    - Nomor WA
+    - Nomor telepon
+    - Bagaimana cara menghubungi IT ITS?
+    - Tolong berikan kontak yang dapat dihubungi dari Teknologi Informasi ITS!
+
+- intent: pembuka
+  examples: |
+    - Hi
+    - Hai
+    - Halo
+    - Selamat pagi
+    - Selamat sore
+    - Selamat siang
+    - Selamat malam
+
+- intent: penutup
+  examples: |
+    - Udah
+    - Tidak
+    - Dadah
+    - Ga ada
+    - Ngga ada
+    - Tidak ada
+    - Sampai jumpa
+
+- intent: positif
+  examples: |
+    - Ok
+    - Oke
+    - Tks
+    - Bener
+    - Benar
+    - Mantap
+    - Thanks
+    - Trmksh
+    - Makasih
+    - Terima kasih
+
+- intent: negatif
+  examples: |
+    - Lah
+    - Bukan
+    - Salah
+    - Ga sesuai
+    - Ga nyambung
+    - Ngga sesuai
+    - Ngga nyambung
+    - Tidak sesuai
+    - Tidak nyambung
+    - Jawabannya salah
+    - Bukan itu maksudnya
+    - Bukan ini maksudnya
+
+- intent: chatit
+  examples: |
+    - chatit
+    - ChatIT
+    - Apa ini?
+    - Siapa ini?
+    - Siapa Anda?
+    - Kamu siapa?
+    - Siapa kamu?
+    - Bisa apa aja?

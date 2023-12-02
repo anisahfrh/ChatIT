@@ -1,0 +1,121 @@
+stories:
+
+- story: prodi path
+  steps:
+  - intent: prodi
+  - action: utter_prodi
+
+- story: akreditasi path
+  steps:
+  - intent: akreditasi
+  - action: utter_akreditasi
+
+- story: kurikulum path
+  steps:
+  - intent: kurikulum
+  - action: utter_kurikulum
+
+- story: lab path
+  steps:
+  - intent: lab
+  - action: utter_lab
+
+- story: publikasi path
+  steps:
+  - intent: publikasi
+  - action: utter_publikasi
+
+- story: persebaran_mhs path
+  steps:
+  - intent: persebaran_mhs
+  - action: utter_persebaran_mhs
+
+- story: sejarah path
+  steps:
+  - intent: sejarah
+  - action: utter_sejarah
+
+- story: kadep path
+  steps:
+  - intent: kadep
+  - action: utter_kadep
+
+- story: pendaftaran path
+  steps:
+  - intent: pendaftaran
+  - action: utter_pendaftaran
+
+- story: prospek_karir path
+  steps:
+  - intent: prospek_karir
+  - action: utter_prospek_karir
+
+- story: jadwal_kuliah path
+  steps:
+  - intent: jadwal_kuliah
+  - action: utter_jadwal_kuliah
+
+- story: kalender_akademik path
+  steps:
+  - intent: kalender_akademik
+  - action: utter_kalender_akademik
+
+- story: hima path
+  steps:
+  - intent: hima
+  - action: utter_hima
+
+- story: prestasi path
+  steps:
+  - intent: prestasi
+  - action: utter_prestasi
+
+- story: staf path
+  steps:
+  - intent: staf
+  - action: utter_staf
+
+- story: dosen path
+  steps:
+  - intent: dosen
+  - action: utter_dosen
+
+- story: struktur_org path
+  steps:
+  - intent: struktur_org
+  - action: utter_struktur_org
+
+- story: lokasi path
+  steps:
+  - intent: lokasi
+  - action: utter_lokasi
+
+- story: kontak path
+  steps:
+  - intent: kontak
+  - action: utter_kontak
+
+- story: pembuka path
+  steps:
+  - intent: pembuka
+  - action: utter_pembuka
+
+- story: penutup path
+  steps:
+  - intent: penutup
+  - action: utter_penutup
+
+- story: positif path
+  steps:
+  - intent: positif
+  - action: utter_positif
+
+- story: negatif path
+  steps:
+  - intent: negatif
+  - action: utter_negatif
+
+- story: chatit path
+  steps:
+  - intent: chatit
+  - action: utter_chatit
